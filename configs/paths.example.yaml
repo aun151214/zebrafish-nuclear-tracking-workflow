@@ -1,0 +1,9 @@
+# Copy this file to configs/paths.yaml and edit locally.
+software:
+  itec_root: /path/to/local/itec
+  dark_sectioning_root: /path/to/local/dark-sectioning
+data:
+  mosaic_root: /path/to/mosaic/dataset
+  terminator003_root: /path/to/terminator003
+outputs:
+  root: /path/to/output/root

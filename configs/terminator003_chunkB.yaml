@@ -1,0 +1,19 @@
+dataset:
+  name: terminator003_chunkB
+  original_first_frame: 308
+  original_last_frame: 329
+  local_first_frame: 1
+  local_last_frame: 22
+  time_interval_min: 1.5
+  z_spacing_um: 0.700
+  xy_downsample: 2.0
+crop:
+  x_start: 650
+  x_end: 2050
+  y_start: 520
+  y_end: 1650
+  z_start_1based: 40
+  z_end_1based: 140
+channel_sampling:
+  percentile: 90
+  status: exploratory

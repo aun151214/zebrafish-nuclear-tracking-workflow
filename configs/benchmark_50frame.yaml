@@ -1,0 +1,12 @@
+dataset:
+  name: benchmark_50frame_pilot
+  first_frame: 1
+  last_frame: 50
+crop:
+  x_start: 345
+  x_end: 1644
+  y_start: 1
+  y_end: 1200
+  z_start: 1
+  z_end: 41
+role: pilot_comparison

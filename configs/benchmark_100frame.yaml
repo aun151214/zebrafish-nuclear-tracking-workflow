@@ -1,0 +1,9 @@
+dataset:
+  name: benchmark_100frame_diagnostic
+  first_frame: 1
+  last_frame: 100
+chunks:
+  - [1, 68]
+  - [69, 100]
+role: scaling_and_failure_mode_diagnostic
+note: identities are not continuous across the chunk boundary

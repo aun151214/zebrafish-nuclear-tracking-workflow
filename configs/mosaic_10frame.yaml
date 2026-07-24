@@ -1,0 +1,19 @@
+dataset:
+  name: mosaic_10frame_validation
+  first_itec_frame: 1
+  last_itec_frame: 10
+  mastodon_frame_offset: 1
+  xy_pixel_size_um: 0.347
+  z_spacing_um: 0.700
+  time_interval_min: 2.5
+  xy_downsample: 2.0
+tracking_validation:
+  thresholds_itec_units: [4.0, 6.0, 8.0, 10.0]
+  primary_threshold_itec_units: 6.0
+  assignment_method: greedy
+segmentation:
+  min_size_original_voxels: 1000
+  max_size_original_voxels: 15000
+  background_intensity: 50
+  clipping: 0
+  motion_flow: false

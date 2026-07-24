@@ -1,0 +1,65 @@
+# Python caches and environments
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+venvs/
+*.egg-info/
+dist/
+build/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local and private configuration
+.env
+.env.*
+!.env.example
+*.env
+secrets.env
+configs/paths.yaml
+configs/*.local.yaml
+*.local.yaml
+local_config.yaml
+
+# Microscopy data and generated outputs
+data/
+raw_data/
+output/
+outputs/
+result/
+results/
+figures/generated/
+logs/
+tmp/
+cache/
+example_data/private/
+
+*.tif
+*.tiff
+*.h5
+*.hdf5
+*.mat
+*.mastodon
+*.gif
+*.mp4
+
+# Archives and packages generated during local work
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Internal staging material: keep outside the clean repository
+audit/
+legacy_reference/
+APPLY_INSTRUCTIONS.txt
+APPLY_STAGE*_INSTRUCTIONS.txt

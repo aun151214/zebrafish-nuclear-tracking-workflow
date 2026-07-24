@@ -1,0 +1,27 @@
+Zebrafish Nuclear Tracking Workflow
+Final private-repository candidate
+
+Date: 2026-07-24
+
+Status:
+- Created from the verified Stage 7 repository snapshot.
+- Internal audit and legacy-reference folders were excluded.
+- Python caches and generated package metadata were removed.
+- No microscopy datasets or large experiment outputs are included.
+- No local Aun or EPFL absolute paths remain in active code.
+- Package editable installation succeeded.
+- All command-line entry points were checked.
+- Complete repository test suite passed: 17 tests.
+- Repository cleanliness checker passed.
+- Licence remains pending Oates Lab / EPFL approval.
+
+Verified reusable components:
+1. Temporal histogram generation.
+2. Mastodon spot and adjacent-link validation.
+3. Reviewed component-continuity analysis.
+4. Full-movie detection, link-gap and tracklet analysis.
+5. Object-level instance-segmentation validation.
+
+Release status:
+Suitable for creation of a private GitHub repository for lab review.
+Not approved for public release or redistribution.
