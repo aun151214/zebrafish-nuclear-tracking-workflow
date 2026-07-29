@@ -12,6 +12,8 @@ Multidimensional Images**
 
 ## Scope
 
+This repository is a post-processing, validation, quality-control and visualisation workflow for zebrafish segmentation and tracking outputs. It is not the complete raw-image-to-segmentation-and-tracking implementation.
+
 The workflow supports:
 
 1. reading iTEC detection and parent-link tables;
@@ -146,6 +148,16 @@ staging folders and likely credential material.
 - `docs/instance_segmentation_validation.md`
 - `docs/reproducibility_status.md`
 - `docs/release_checklist.md`
+- `docs/naming_conventions.md`
+- `docs/methodological_choices.md`
+- `docs/repository_scope.md`
+- `docs/output_gallery.md`
+
+## Historical run names
+
+Historical identifiers such as `A_min200` and `A_min1000` are retained so that repository outputs remain traceable to the thesis experiments and regression targets.
+
+Their meanings, coordinate conventions and recommended future naming format are documented in `docs/naming_conventions.md`.
 
 ## Scientific boundaries
 
